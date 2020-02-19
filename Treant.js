@@ -792,7 +792,7 @@
 
                 // if the tree is smaller than the draw area, then center the tree within drawing area
                 node.X += negOffsetX + ((treeWidth < this.drawArea.clientWidth) ? deltaX : this.CONFIG.padding);
-                node.Y += negOffsetY + ((treeHeight < this.drawArea.clientHeight) ? deltaY : this.CONFIG.padding);
+               // node.Y += negOffsetY + ((treeHeight < this.drawArea.clientHeight) ? deltaY : this.CONFIG.padding);
 
                 var collapsedParent = node.collapsedParent(),
                     hidePoint = null;
